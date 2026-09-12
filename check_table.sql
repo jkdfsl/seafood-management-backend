@@ -1,0 +1,7 @@
+-- 查看出库表结构
+DESCRIBE shengxianchuku;
+
+-- 或者查看表的所有列
+SELECT COLUMN_NAME, DATA_TYPE, COLUMN_COMMENT, COLUMN_DEFAULT 
+FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_NAME = 'shengxianchuku' AND TABLE_SCHEMA = 'springbootcug86';

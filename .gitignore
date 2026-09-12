@@ -1,0 +1,33 @@
+# Build output
+target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+
+# Runtime files and logs
+logs/
+*.log
+upload/*
+!upload/.gitkeep
+src/main/resources/static/upload/*
+!src/main/resources/static/upload/.gitkeep
+
+# Local and secret configuration
+application-local.yml
+application-local.yaml
+application-local.properties
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
